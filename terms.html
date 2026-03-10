@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service — Atmos</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", sans-serif;
+  --navy: #1d1d1f;
+  --mid: #6e6e73;
+  --light: #f5f5f7;
+  --sky-deep: #5e9fd4;
+  --white: #ffffff;
+}
+html { scroll-behavior: smooth; }
+body { font-family: var(--font); color: var(--navy); background: var(--white); -webkit-font-smoothing: antialiased; }
+
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  height: 52px; display: flex; align-items: center; justify-content: space-between;
+  padding: 0 22px;
+  background: rgba(255,255,255,0.82);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 0.5px solid rgba(0,0,0,0.12);
+}
+.nav-logo { display: flex; align-items: center; gap: 8px; text-decoration: none; }
+.nav-logo img { width: 28px; height: 28px; border-radius: 6px; }
+.nav-logo span { font-size: 17px; font-weight: 600; color: var(--navy); letter-spacing: -0.022em; }
+.nav-back {
+  font-size: 14px; font-weight: 400; color: var(--sky-deep);
+  text-decoration: none; display: flex; align-items: center; gap: 4px;
+}
+.nav-back:hover { opacity: 0.7; }
+
+.page {
+  max-width: 680px; margin: 0 auto;
+  padding: 100px 22px 80px;
+}
+.page-label {
+  font-size: 13px; font-weight: 600; color: var(--sky-deep);
+  letter-spacing: 0.02em; text-transform: uppercase; margin-bottom: 12px;
+}
+.page-title {
+  font-size: clamp(36px, 5vw, 56px); font-weight: 700;
+  letter-spacing: -0.03em; line-height: 1.07; color: var(--navy);
+  margin-bottom: 8px;
+}
+.page-date { font-size: 14px; color: var(--mid); margin-bottom: 56px; }
+
+.section { margin-bottom: 40px; }
+.section-title {
+  font-size: 19px; font-weight: 600; letter-spacing: -0.02em;
+  color: var(--navy); margin-bottom: 10px;
+}
+.section-body {
+  font-size: 16px; font-weight: 400; color: var(--mid);
+  line-height: 1.7;
+}
+
+.divider { height: 0.5px; background: rgba(0,0,0,0.1); margin: 48px 0; }
+
+footer {
+  background: var(--light);
+  border-top: 0.5px solid rgba(0,0,0,0.1);
+  padding: 24px 22px;
+}
+.footer-inner {
+  max-width: 680px; margin: 0 auto;
+  display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;
+}
+.footer-copy { font-size: 12px; color: #86868b; }
+.footer-links { display: flex; gap: 24px; }
+.footer-links a { font-size: 12px; color: #86868b; text-decoration: none; }
+.footer-links a:hover { color: var(--navy); }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    <img src="app-icon.png" alt="Atmos">
+    <span>Atmos</span>
+  </a>
+  <a href="index.html" class="nav-back">
+    ← Back
+  </a>
+</nav>
+
+<div class="page">
+  <p class="page-label">Legal</p>
+  <h1 class="page-title">Terms of Service</h1>
+  <p class="page-date">Last updated March 10, 2026</p>
+
+  <div class="section">
+    <h2 class="section-title">Use of the App</h2>
+    <p class="section-body">Atmos is provided for personal, non-exclusive use. You may use the app to view weather information, generated scenes, and widgets on your devices.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section">
+    <h2 class="section-title">Availability</h2>
+    <p class="section-body">Weather data, image generation, and widgets may not always be available. Features may change, be delayed, or stop working depending on network availability, third-party services, platform changes, or future app updates.</p>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">No Warranty</h2>
+    <p class="section-body">Atmos is provided as-is and for informational purposes only. Weather conditions can change quickly, and the app should not be relied on as a sole source for safety-critical decisions.</p>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Generated Content</h2>
+    <p class="section-body">Atmos may generate scene imagery based on weather and location-derived context. Generated scenes are illustrative and artistic, and may not perfectly represent the real city or exact current conditions.</p>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Acceptable Use</h2>
+    <p class="section-body">You agree not to misuse the app, attempt to reverse engineer protected services, interfere with normal operation, or use the app in a way that violates applicable law.</p>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Changes</h2>
+    <p class="section-body">Features, pricing, and policies may change over time. Continued use of Atmos after updates means you accept the current version of these terms.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section">
+    <h2 class="section-title">Contact</h2>
+    <p class="section-body">Questions about these terms? Reach out through the support link below.</p>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <span class="footer-copy">Copyright © 2025 Atmos. All rights reserved.</span>
+    <nav class="footer-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="#">Support</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

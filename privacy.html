@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Atmos</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", sans-serif;
+  --navy: #1d1d1f;
+  --mid: #6e6e73;
+  --light: #f5f5f7;
+  --sky-deep: #5e9fd4;
+  --white: #ffffff;
+}
+html { scroll-behavior: smooth; }
+body { font-family: var(--font); color: var(--navy); background: var(--white); -webkit-font-smoothing: antialiased; }
+
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  height: 52px; display: flex; align-items: center; justify-content: space-between;
+  padding: 0 22px;
+  background: rgba(255,255,255,0.82);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 0.5px solid rgba(0,0,0,0.12);
+}
+.nav-logo { display: flex; align-items: center; gap: 8px; text-decoration: none; }
+.nav-logo img { width: 28px; height: 28px; border-radius: 6px; }
+.nav-logo span { font-size: 17px; font-weight: 600; color: var(--navy); letter-spacing: -0.022em; }
+.nav-back {
+  font-size: 14px; font-weight: 400; color: var(--sky-deep);
+  text-decoration: none; display: flex; align-items: center; gap: 4px;
+}
+.nav-back:hover { opacity: 0.7; }
+
+.page {
+  max-width: 680px; margin: 0 auto;
+  padding: 100px 22px 80px;
+}
+.page-label {
+  font-size: 13px; font-weight: 600; color: var(--sky-deep);
+  letter-spacing: 0.02em; text-transform: uppercase; margin-bottom: 12px;
+}
+.page-title {
+  font-size: clamp(36px, 5vw, 56px); font-weight: 700;
+  letter-spacing: -0.03em; line-height: 1.07; color: var(--navy);
+  margin-bottom: 8px;
+}
+.page-date { font-size: 14px; color: var(--mid); margin-bottom: 56px; }
+
+.section { margin-bottom: 40px; }
+.section-title {
+  font-size: 19px; font-weight: 600; letter-spacing: -0.02em;
+  color: var(--navy); margin-bottom: 10px;
+}
+.section-body {
+  font-size: 16px; font-weight: 400; color: var(--mid);
+  line-height: 1.7;
+}
+
+.divider { height: 0.5px; background: rgba(0,0,0,0.1); margin: 48px 0; }
+
+footer {
+  background: var(--light);
+  border-top: 0.5px solid rgba(0,0,0,0.1);
+  padding: 24px 22px;
+}
+.footer-inner {
+  max-width: 680px; margin: 0 auto;
+  display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;
+}
+.footer-copy { font-size: 12px; color: #86868b; }
+.footer-links { display: flex; gap: 24px; }
+.footer-links a { font-size: 12px; color: #86868b; text-decoration: none; }
+.footer-links a:hover { color: var(--navy); }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    <img src="app-icon.png" alt="Atmos">
+    <span>Atmos</span>
+  </a>
+  <a href="index.html" class="nav-back">
+    ← Back
+  </a>
+</nav>
+
+<div class="page">
+  <p class="page-label">Legal</p>
+  <h1 class="page-title">Privacy Policy</h1>
+  <p class="page-date">Last updated March 10, 2026</p>
+
+  <div class="section">
+    <h2 class="section-title">Overview</h2>
+    <p class="section-body">Atmos is a weather app that shows local conditions and generated miniature city scenes. This policy explains what information the app uses and how it is handled.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section">
+    <h2 class="section-title">Location</h2>
+    <p class="section-body">If you allow location access, Atmos uses your device location to show local weather and generate a matching city scene. Location access is optional, and you can change it any time in iOS Settings.</p>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Weather and Scene Data</h2>
+    <p class="section-body">Atmos uses Apple WeatherKit to request local weather information. Atmos also uses weather-derived context such as city, country, condition, and temperature to generate scene imagery. Cached weather snapshots and generated scene files may be stored on your device or in the app's shared local storage for widgets.</p>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Data Sharing</h2>
+    <p class="section-body">Atmos does not sell your personal information. Atmos does not use third-party advertising or tracking SDKs. If scene generation is enabled, relevant request data may be sent to the image generation provider in order to create your scene.</p>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Data Storage</h2>
+    <p class="section-body">Atmos stores certain settings and cached content locally on your device, including temperature unit preferences, recent weather snapshots, and generated scene images. This helps the app load faster and keep widgets updated.</p>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Your Choices</h2>
+    <p class="section-body">You can deny or revoke location access at any time from iOS Settings. If you revoke location access, Atmos may not be able to show weather for your current city until you enable it again.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section">
+    <h2 class="section-title">Contact</h2>
+    <p class="section-body">If you have questions about this privacy policy, please reach out through the support link below.</p>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <span class="footer-copy">Copyright © 2025 Atmos. All rights reserved.</span>
+    <nav class="footer-links">
+      <a href="terms.html">Terms of Service</a>
+      <a href="#">Support</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
